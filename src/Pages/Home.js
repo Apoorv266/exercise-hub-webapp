@@ -5,7 +5,7 @@ import SearchExercises from "../Components/SearchExercises"
 import Exercises from "../Components/Exercises"
 
 const Home = () => {
-  const [bodyPart, setbodyPart] = useState('All')
+  const [bodyPart, setbodyPart] = useState('all')
   const [exercises, setexercises] = useState([])
   return (
     <Box>
